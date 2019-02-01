@@ -1,0 +1,11 @@
+<div>
+  <label>Index:
+    <input #index />
+  </label>
+  <button (click)="fib(index.value); index.value=''">
+    search
+  </button>
+  <button (click)="rec(index.value); index.value=''">
+    recursive search
+  </button>
+</div>
